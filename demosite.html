@@ -1,0 +1,625 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ellington University</title>
+    <link rel="icon" type="images/x-icon" href="https://www.w3docs.com/favicon.ico" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <!-- -------------navbar----------- -->
+    <nav class="navbar navbar-expand-lg bg-light sticky-top">
+      <div class="container-fluid">
+        <div class="logo-img">
+          <img src="img/logo.jpg">
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#aboutus">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Campus</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#campuslife">Campus Life</a></li>
+                <li><a class="dropdown-item" href="#events">Events</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#campus-safety">Campus safety</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex register-button" role="search">
+            <button class="btn-search" type="submit"><a href="pglogin.html">Apply now</a></button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- -------------share-menu-bar at side----------- -->
+    <!-- <div class="sharethis-sticky-share-buttons st-sticky-share-buttons st-left st-toggleable st-has-labels" id="st-1">
+      <div class="st-btn st-first" data-network="facebook" style="display: inline-block;">
+        <img alt="facebook sharing button" src="https://platform-cdn.sharethis.com/img/facebook.svg">
+        <span class="st-label">facebook</span>
+      </div>
+      <div class="st-btn" data-network="twitter" style="display: inline-block;">
+        <i class="fa-solid fa-phone"></i>
+        <span class="st-label">Contact</span>
+      </div>
+      <div class="st-btn" data-network="email" style="display: inline-block;">
+        <img alt="email sharing button" src="https://platform-cdn.sharethis.com/img/email.svg">
+        <span class="st-label">Email</span>
+      </div>
+      <div class="st-btn" data-network="whatsapp" style="display: inline-block;">
+        <img alt="whatsapp sharing button" src="https://platform-cdn.sharethis.com/img/whatsapp.svg">
+        <span class="st-label">Whatsapp</span>
+      </div> -->
+      <!-- <div class="st-btn" data-network="sms" style="display: inline-block;">
+      <img alt="sms sharing button" src="https://platform-cdn.sharethis.com/img/sms.svg">
+      <span class="st-label">Message</span>
+      </div>
+      <div class="st-btn st-last" data-network="sharethis" style="display: inline-block;">
+      <img alt="sharethis sharing button" src="https://platform-cdn.sharethis.com/img/sharethis.svg">
+      <span class="st-label">Share</span>
+      </div> -->
+     <!-- <div class="st-toggle"></div>
+    </div> -->
+
+
+
+
+
+
+
+
+
+  <div class="sharethis-sticky-share-buttons st-sticky-share-buttons st-left st-toggleable st-has-labels  " id="st-1">
+    <div class="st-btn st-first" data-network="facebook" style="display: inline-block; margin: 1px 0px">
+     <img alt="facebook sharing button" src="https://platform-cdn.sharethis.com/img/facebook.svg">
+     <span class="st-label" style="margin-left: -11px;">Facebook</span>
+   </div>
+   <div class="st-btn" data-network="twitter" style="display: inline-block;margin: 1px 0px">
+     <img alt="twitter sharing button" src="https://platform-cdn.sharethis.com/img/twitter.svg">
+     <span class="st-label">Contact</span>
+   </div>
+   <div class="st-btn" data-network="email" style="display: inline-block;margin: 1px 0px">
+     <img alt="email sharing button" src="https://platform-cdn.sharethis.com/img/email.svg">
+     <span class="st-label">Email</span>
+   </div>
+   <div class="st-btn" data-network="whatsapp" style="display: inline-block;margin: 1px 0px">
+     <img alt="whatsapp sharing button" src="https://platform-cdn.sharethis.com/img/whatsapp.svg">
+     <span class="st-label">Share</span>
+   </div>
+   <!-- <div class="st-btn" data-network="sms" style="display: inline-block;">
+     <img alt="sms sharing button" src="https://platform-cdn.sharethis.com/img/sms.svg">
+     <span class="st-label">Share</span>
+   </div>
+   <div class="st-btn st-last" data-network="sharethis" style="display: inline-block;">
+     <img alt="sharethis sharing button" src="https://platform-cdn.sharethis.com/img/sharethis.svg">
+     <span class="st-label">Share</span>
+   </div> -->
+   <div class="st-toggle"></div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ---scroll-down-button---- -->
+     <!-- <div class="arrow-container animated fadeInDown">
+        <div class="arrow-2">
+          <i class="fa fa-angle-down"></i>
+        </div>
+        <div class="arrow-1 animated hinge infinite zoomIn"></div>
+      </div> -->
+    <!-- --end-scroll-down-button--- -->
+
+    <section id="hero" class="hero">
+      <div class="owl-carousel header-carousel">
+        <div class="owl-carousel-item">
+          <div class="Banner-sildeR">
+            <img class="img-fluid Banner-sildeR" src="img/slideimg1.jpg" alt="slider1" />
+          </div>
+        </div>
+        <div class="owl-carousel-item">
+          <div class="Banner-sildeR">
+            <img class="img-fluid Banner-sildeR" src="img/sliderimg2.jpg" alt="slider2" />
+          </div>
+        </div>
+        <div class="owl-carousel-item">
+          <div class="Banner-sildeR">
+            <img class="img-fluid Banner-sildeR" src="img/sliderimg3.jpg" alt="slider3" />
+          </div>
+        </div>
+      </div>
+      <div class="slide-content">
+        <div class="title">
+          <h3>WELCOME TO</h3>
+          <h1>ELLINGTON UNIVERSITY</h1>
+          <p>Ellington University is a public research university located in Ghent,
+            Belgium. Located in Flanders, Ellington University is one of the largest
+            Belgian universities, consisting of 44,000 students and 9,000 staff
+            members. 
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- -------------------scroll top----------- -->
+    <div class="scroll-top-button d-none d-lg-block">
+     <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center active">
+       <i class="fa-solid fa-arrow-up" onclick="topFunction()" id="myBtn" title="Go to top"></i>
+     </a>
+    </div>
+    <!-- --------------aboutus---------- -->
+
+    <section class="aboutus">
+      <div class="container">
+        <div class="row">
+          <div class="abouthead" id="aboutus">
+            <h2>A Purposeful University</h2>
+          </div>
+          <div class="col-lg-7">
+            <div data-aos="fade-right" class="about-img">
+              <img src="img/aboutimg.webp">
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div data-aos="fade-left" class="about-bg">
+              <div>
+                <h2>ABOUT US</h2>
+                <p>We provide students with much more than just a single letter
+                  grade.
+                  Our feedback identifies strengths and targets areas for
+                  growth.
+                  Our learning approach is centered around the 8 Abilities what
+                  set our students and alums apart.
+                  These are the skills that will help you thrive both personally
+                  and professionally.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ----------cartsection------ -->
+
+    <section class="cartsection">
+      <div class="container">
+        <div class="cart-head">
+          <h2>Facilities we provide</h2>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-3 col-md-6 col-sm-12 ">
+            <div class="bg-light rounded service-item">
+              <div class="service-content">
+                <div class="grow">
+                  <img src="img/lib3.jpg" class="card-img-top" alt="libraryimg">
+                  <div class="service-content-icon text-center p-3">
+                    <h4 class="mb-3">Library</h4>
+                    <p class="mb-4">Libraries are essential in a process of giving citizens access to knowledge.</p>
+                    <a href="#" class="btn btn-primary px-4 py-2 rounded-pill">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 ">
+            <div class="bg-light rounded service-item">
+              <div class="service-content">
+                <div class="grow">
+                  <img src="img/comp2.webp" class="card-img-top" alt="computerlabimg">
+                  <div class="service-content-icon text-center p-3">
+                    <h4 class="mb-3">Computer lab</h4>
+                    <p class="mb-4">Students, faculty and staff have access to the computer labs and access library resources.</p>
+                    <a href="#" class="btn btn-primary px-4 py-2 rounded-pill">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="bg-light rounded service-item">
+              <div class="service-content">
+                <div class="grow">
+                  <img src="img/sportsimg.jpg" class="card-img-top" alt="sportsimg">
+                  <div class="service-content-icon text-center p-3">
+                    <h4 class="mb-3">Sports</h4>
+                    <p class="mb-4">Students get a chance to work on their physical and mental abilities to achieve goals.</p>
+                    <a href="#" class="btn btn-primary px-4 py-2 rounded-pill">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="bg-light rounded service-item">
+              <div class="service-content">
+                <div class="grow">
+                  <img src="img/auditoriumimg1.jpg" class="card-img-top" alt="auditoriumimg">
+                  <div class="service-content-icon text-center p-3">
+                    <h4 class="mb-3">Auditorium</h4>
+                    <p class="mb-4">The auditorium offers facilities such as LCD projectors, screens and white-boards.</p>
+                    <a href="#" class="btn btn-primary px-4 py-2 rounded-pill">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- -----------------campus--------------------- -->
+  <section class="events" id="campuslife">
+    <div class="container">
+      <div class="college-head">
+        <h2>Campus Life</h2>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-sm-12">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/SwDS9z00xsA?si=6qwBYoYDTUZFJfZs" allowfullscreen></iframe>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="clg-video-content">
+            <p>Welcome to the Ellington University !
+              See what it’s like to live and study in Ellington University.It is the
+              epicenter of global politics. It’s also
+              your hotspot for art, activism, entrepreneurship and public
+              service. Think of the city as an extension of
+              campus. Whether you intern on Capitol Hill, conduct research for
+              an NGO or take time out at an embassy
+              party.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+ </section>
+
+    <!-- ************************Events********************** -->
+    <section class="clgevents" id="events">
+      <div class="container">
+        <div class="events-head">
+          <h2>Events</h2>
+        </div>
+        <div class="owl-carousel news-carousel">
+          <div class="item">
+            <div class="card">
+              <div class="card-body">
+                <p class="card-text">College fests</p>
+              </div>
+              <div class="rotate">
+                <img src="img/festimg.webp" class="card-img-top" alt="College-fests">
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card">
+              <div class="card-body">
+                <p class="card-text">Christams</p>
+              </div>
+              <div class="rotate">
+                <img src="img/christmasimg.jpg" class="card-img-top" alt="Christmas-celebration">
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="card">
+              <div class="card-body">
+                <p class="card-text">Cultural fest</p>
+              </div>
+              <div class="rotate">
+                <img src="img/culture1.jpeg" class="card-img-top" alt="Cultural-fest">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ------------campur-safety------- -->
+
+    <div class="campus-safety-head" id="campus-safety">
+      <h2>Campus Safety</h2>
+    </div>
+    <section class="pt-7 pt-md-5 contentcolor">
+      <div class="container">
+        <div class="row mb-5 text-center">
+          <div data-aos="zoom-in-right" class="col-12 col-md-4 mb-4">
+            <img class="img-fluid rounded-3 shadow-lg image-up" src="img/safe1.webp">
+          </div>
+          <div data-aos="zoom-in-left" class="col-12 col-md-8 text-md-start" style="max-width: 460px;">
+            <h3 class="fw-medium"> Call Box</h3>
+            <p>Students cannot immediately access a cell phone, they will be
+              able to use this system along with everyone
+              else.
+            </p>
+          </div>
+        </div>
+        <div class="row d-flex justify-content-end">
+          <div data-aos="zoom-in-left"
+            class="col-12 col-md-4 order-0 order-md-1">
+            <img class="img-fluid rounded-3 shadow-lg image-down" src="img/safe2.avif">
+          </div>
+          <div data-aos="zoom-in-right" class="col-12 col-md-8 text-center text-md-start order-1 order-md-0" style="max-width: 460px;">
+            <h3 class="fw-medium">Press Button</h3>
+            <p>When an emergency occurs, pressing this button connects the
+              individual to security officers in a security
+              room.
+            </P>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ----------------------------features section--------------- -->
+    <div class="feature-head" id="features">
+      <h2>Features</h2>
+    </div>
+    <section class="features">
+      <div class="container">
+        <div class="row gy-4 align-item-center feature-item">
+          <div class="col-lg-5 order-2 order-lg-1 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+            <h3>Corporis temporibus maiores provident</h3>
+            <p>
+              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+              irure dolor in reprehenderit in voluptate
+              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+              occaecat cupidatat non proident.
+            </p>
+            <a href="#" class="btn btn-get-started">Read more!</a>
+          </div>
+          <div class="col-lg-7 order-1 order-lg-2 d-flex align-items-center aos-init aos-animate" data-aos="zoom-out" data-aos-delay="100">
+            <div data-aos="flip-right" class="image-stack">
+              <img src="img/features-img2.jpg" alt="featureimg1" class="stack-front">
+              <img src="img/features-img1.jpg" alt="atureimg2" class="stack-back">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ------------------------------contact--------------------------- -->
+    <section id="Contact" class="contact-section">
+      <div class="container-fluid">
+        <div class="section-header">
+          <h2>Contact</h2>
+          <p>Nulla dolorum nulla nesciunt rerum facere sed ut inventore quam
+            porro nihil id ratione ea sunt quis dolorem
+            dolore earum.
+          </p>
+        </div>
+        <div class="row gx-lg-0 gy-4">
+          <div class="col-lg-4">
+            <div class="info-container d-flex flex-column align-item-center justify-content-center">
+              <div class="info-item d-flex">
+                <i class="fa-solid fa-map-location"></i>
+                <div>
+                  <h4>Location:</h4>
+                  <p>A108 Adam Street, New York, NY 535022</p>
+                </div>
+              </div>
+
+              <div class="info-item d-flex">
+                <i class="fa-solid fa-phone-volume"></i>
+                <div>
+                  <h4>Call:</h4>
+                  <p>+1 5589 55488 55</p>
+                </div>
+              </div>
+
+              <div class="info-item d-flex">
+                <i class="fa-regular fa-clock"></i>
+                <div>
+                  <h4>Open Hours:</h4>
+                  <p>9AM - 3PM</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-8">
+            <form action="forms/contact.php" method="post" role="form" class="php.email-form">
+              <div class="row">
+                <div class="col-md-6 group-form">
+                  <label for="name">Name</label>
+                  <input type="text" name="name" class="form-control" id="name" placeholder="your name" maxlength="10" onkeydown="return /[a-z]/i.test(event.key)" required>
+                </div>
+                <div class="col-md-6 group-form mt-3 mt-md-0">
+                  <label for="email">Email</label>
+                  <input type="email" name="email" class="form-control" id="email" placeholder="email" maxlength="30" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <label for="subject">Subject</label>
+                <input type="text" name="subject" class="form-control" id="subject" placeholder="subject" maxlength="20" required>
+              </div>
+              <div class="group-form mt-3">
+                <label for="message">Message</label>
+                <textarea class="form-control" name="message" id="message" placeholder="message" maxlength="120" required></textarea>
+              </div>
+              <div class="text-center mt-3">
+                <button type="submit">Send message</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------------footer-------------- -->
+    <footer class="footer" id="footer">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-5 col-md-12 footer-info">
+            <a href="demosite.html" class="logo d-flex align-items-center">
+              <span>Ellington University</span>
+            </a>
+            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget
+              nada terra videa magna derita valies darta
+              donna mare fermentum iaculis eu non diam phasellus.
+            </p>
+            <div class="social-links d-flex mt-4">
+              <a href="https://www.instagram.com/ugent/?hl=en" class="instagram">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a href="https://be.linkedin.com/school/ghent-university/" class="linkedin">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+              <a href="https://lib.ugent.be/en/catalog/ejn01:4340000000128236" class="telegram">
+                <i class="fa-brands fa-telegram"></i>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#aboutus">About us</a></li>
+              <li><a href="#campus">Features</a></li>
+              <li><a href="#campus-life">Campus life</a></li>
+              <li><a href="#campus-safety">Campus safety</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><a href="#">Web Design</a></li>
+              <li><a href="#">Web Development</a></li>
+              <li><a href="#">Product Management</a></li>
+              <li><a href="#">Marketing</a></li>
+              <li><a href="#">Graphic Design</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+            <h4>Contact Us</h4>
+            <p>
+              A108 Adam Street <br>
+              New York, NY 535022<br>
+              United States <br><br>
+              <strong>Phone:</strong> +1 5589 55488 55<br>
+              <strong>Email:</strong> info@example.com<br>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container mt-4">
+        <div class="copyright">
+          2023 &copy; Copyright All Rights Reserved . Designed by <a href="demosite.html">SmruthyJenson</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ***********************script****************** -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <!-- ************SCRIPT FOR AOS(animation)*************** -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    AOS.init();
+   </script>
+
+    <script>
+    $(".header-carousel").owlCarousel({
+      autoplay: true,
+      smartSpeed: 1000,
+      items: 1,
+      dots: false,
+      loop: true,
+      nav: true,
+      navText: [
+        '<i class="fa fa-chevron-left"></i>',
+        '<i class="fa fa-chevron-right"></i>'
+      ]
+    });
+    $(".news-carousel").owlCarousel({
+      loop: true,
+      margin: 10,
+      nav: false,
+      autoplay: true,
+      smartSpeed: 1000,
+      responsive: {
+        0: {
+          items: 1
+        },
+        600: {
+          items: 3
+        },
+        1000: {
+          items: 4
+        }
+      }
+    });
+
+    // ---------for only alphabet------
+    function alphaOnly(event) {
+      var key = event.key;
+      return ((key >= 65 && key <= 90) || key == 8);
+    };
+  </script>
+
+    <!-- --------------scroll-top------------- -->
+    <script>
+    // Get the button
+    let mybutton = document.getElementById("myBtn");
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {
+      scrollFunction()
+    };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
+  </body>
+
+</html>
